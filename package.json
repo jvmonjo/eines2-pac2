@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
-  "version": "2.4.0",
+  "name": "eines2-apc2",
+  "version": "1.0.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Eines 2 - PAC 2 based on Boilerplate for Advanced HTML/CSS Tools UOC students",
   "scripts": {
     "parcel:dev": "parcel src/index.html -p 8123 --open",
     "parcel:build": "parcel build src/index.html --public-url ./ --out-dir dist --no-source-maps --no-cache",
@@ -13,17 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "git+https://github.com/jvmonjo/eines2-pac2.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Josep Vicent Monjo",
+    "email": "josepmonjo@uoc.edu"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
+    "url": "https://github.com/jvmonjo/eines2-pac2/issues"
   },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://github.com/jvmonjo/eines2-pac2",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
