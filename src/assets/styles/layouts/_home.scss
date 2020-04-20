@@ -8,12 +8,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
 
 footer {
   color: white;
-
   a {
     color: white;
+  }
+}
+
+// GRID magic ;)
+
+@supports (display: grid){
+  body {
+    display: grid;
+    grid-template-rows: fit-content(80px) auto fit-content(80px);
   }
 }

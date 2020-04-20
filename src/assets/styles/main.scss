@@ -1,15 +1,12 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 /**
  * Import variables
  */
 
 @import "variables";
 @import "commons";
-/**
- * Import npm dependencies
- * see: https://en.parceljs.org/module_resolution.html
- * see commented examples below
- */
- @import "~bootstrap/scss/bootstrap.scss";
+
 
 /**
  * Import layouts
