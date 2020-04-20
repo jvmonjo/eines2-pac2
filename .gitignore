@@ -178,4 +178,6 @@ $RECYCLE.BIN/
 ### UOC Boilerplate ###
 .cache
 .cache-loader
-dist
+#dist
+
+PAC2-wireframes.pdf
