@@ -2,34 +2,37 @@ footer {
   font-size: 0.8rem;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(to bottom, rgba(0,0,0, 0.9), rgba(0,0,0, 0.9), rgba(0,0,0, 0.3));
-}
+// header {
+//   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+//   display: flex;
+//   justify-content: space-between;
+// }
 
-nav ul{
-  display: flex;
-  list-style-type: none;
-  margin: 0.5rem;
+// nav ul {
+//   display: flex;
+//   list-style-type: none;
+//   margin: 0.5rem;
   
-  li {
-    margin-left: 2rem;
-  }
-}
+//   li {
+//     margin-left: 2rem;
+//   }
+// }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $font-family-serif;
 }
 
 a {
-  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-color: transparent;
+  text-transform: uppercase;
   transition: 0.5s;
 }
 
 a:hover {
-  text-decoration-color: white;
-  color: inherit;
+  color: $color-light;
+  text-decoration-color: $color-light;
 }
