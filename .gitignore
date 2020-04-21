@@ -180,4 +180,6 @@ $RECYCLE.BIN/
 .cache-loader
 dist
 
+.vscode
+
 PAC2-wireframes.pdf
