@@ -1,4 +1,4 @@
-body {
+.home__body {
   background: url('../images/home.jpg');
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-main {
+.home__main {
   align-items: center;
   display: flex;
   flex: auto;
@@ -22,26 +22,24 @@ main {
   padding: 2rem;
 }
 
-footer {
+.footer,
+.footer__link {
   color: $color-light;
-
-  a {
-    color: $color-light;
-  }
 }
 
-.dragon {
+.home__dragon {
   width: 33vw;
 }
 
-.title {
+.home__title {
   text-align: center;
 }
 
-.dos,
-.tres {
+.home__cast,
+.home__play {
   background-color: rgba(250, 6, 6, 0.8);
   border-radius: 10px;
+  font-size: 0.8rem;
   margin: -1rem;
   padding: 1rem;
 }
@@ -49,44 +47,41 @@ footer {
 // GRID magic ;)
 
 @supports (display: grid) {
-  body {
+  .home__body {
     display: grid;
     grid-template-rows: fit-content(80px) auto fit-content(80px);
   }
 
-  main > * {
+  .home__main > * {
     margin-bottom: 2rem !important;
   }
   // Per a la responsivitat he decidit fer media query en lloc de
   // grid-auto-rows i grid-auto-columns per que em dona més precisió alhora 
   // d'ubicar elements al grid
   @media (min-width: 600px) {
-    main {
+    .home__main {
       display: grid;
       grid-gap: 2vw;
       grid-template-columns: repeat(5, 16vw);
     }
   }
 
-  .dragon {
-    align-self: center;
-    grid-column: 1/2;
+  .home__dragon {
+    grid-column: 2/5;
     grid-row: 1/2;
-    height: 120px;
-    width: auto;
   }
 
-  .title {
+  .home__title {
     grid-column: 2/5;
     grid-row: 2/3;
   }
 
-  .dos {
+  .home__cast {
     grid-column: 4/6;
     grid-row: 3/4;
   }
 
-  .tres {
+  .home__play {
     grid-column: 2/3;
     grid-row: 4/5;
   }

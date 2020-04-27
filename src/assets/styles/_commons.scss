@@ -1,4 +1,4 @@
-footer {
+.footer {
   font-size: 0.8rem;
 }
 
@@ -18,10 +18,7 @@ footer {
 //   }
 // }
 
-h1,
-h2,
-h3,
-h4 {
+.title {
   font-family: $font-family-serif;
 }
 
@@ -30,9 +27,9 @@ a {
   text-decoration-color: transparent;
   text-transform: uppercase;
   transition: 0.5s;
-}
 
-a:hover {
-  color: $color-light;
-  text-decoration-color: $color-light;
+  :hover {
+    color: $color-light;
+    text-decoration-color: $color-light;
+  }
 }
