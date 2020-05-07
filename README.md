@@ -4,7 +4,7 @@
 
 ### Guia d'estils
 
-S'ha instal·lat stylelint i s'han important els estàndards per a Sass.
+S'ha instal·lat stylelint i s'han importat els estàndards per a Sass. Com a nomenclatura s'ha procurat usar BEM
 
 ### Issues
 

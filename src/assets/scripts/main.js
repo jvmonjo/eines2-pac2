@@ -4,6 +4,7 @@
  */
 
 import 'bootstrap';
+import '@fortawesome/fontawesome-free/css/all.css'
 
 /**
  * Write any other JavaScript below
