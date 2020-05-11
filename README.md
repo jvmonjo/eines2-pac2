@@ -24,3 +24,7 @@ Seguint la recomanació trobada a aquest issue obert a github https://github.com
   "selector-class-pattern": null
 }
 ```
+
+### Repartiment
+
+Per he creat un layout de graella amb flex. Per a mantenir 3 ítems per fila a pantalles suficientment grans he fet que els ítems tinguen una amblada de 28vw, i un comportament wrap quan no capiguen més ítems a la fila. En pantalles més petites s'ha optat per una amplada de 95vw per a facilitar un layout vertical d'una sola columna.

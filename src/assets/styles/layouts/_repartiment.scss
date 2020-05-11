@@ -1,0 +1,18 @@
+.repartiment {
+  padding: 2rem;
+}
+
+.repartiment__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.repartiment__item {
+  margin: 0.5rem;
+  width: 28vw;
+
+  @media (max-width: 768px) {
+    width: 95vw;
+  }
+}
