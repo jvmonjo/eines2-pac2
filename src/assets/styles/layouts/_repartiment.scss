@@ -6,10 +6,12 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .repartiment__item {
-  margin: 0.5rem;
+  margin: 0.5vw;
   width: 28vw;
 
   @media (max-width: 768px) {
