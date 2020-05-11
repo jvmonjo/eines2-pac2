@@ -14,7 +14,11 @@
   margin: 0.5vw;
   width: 28vw;
 
-  @media (max-width: 768px) {
+  @include media-breakpoint-down(md) {
+    width: 40vw;
+  }
+
+  @include media-breakpoint-down(sm) {
     width: 95vw;
   }
 }

@@ -27,4 +27,4 @@ Seguint la recomanació trobada a aquest issue obert a github https://github.com
 
 ### Repartiment
 
-Per he creat un layout de graella amb flex. Per a mantenir 3 ítems per fila a pantalles suficientment grans he fet que els ítems tinguen una amblada de 28vw, i un comportament wrap quan no capiguen més ítems a la fila. En pantalles més petites s'ha optat per una amplada de 95vw per a facilitar un layout vertical d'una sola columna.
+Per a la pàgina del repartiment he creat un layout de graella usant flex. Per a mantenir 3 ítems per fila a pantalles suficientment grans he fet que els ítems tinguen una amblada de 28vw i un marge entre ítems de 0.5vw, a més a més d'un comportament wrap quan no capiguen més ítems a la fila. En pantalles mitjanes s'ha optat per una amplada per ítem de 40vw per facilitar la cabuda de 2 items per filera. En pantalles més petites s'ha optat per una amplada de 95vw per a facilitar un layout vertical d'una sola columna. El media query s'ha fet usant els mixins disponibles a bootstrap en pro d'una integració entre els breakpoints de bootstrap i els estils personalitzats.
