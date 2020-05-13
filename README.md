@@ -32,3 +32,8 @@ Per a la pàgina del repartiment he creat un layout de graella usant flex. Per a
 ### Article
 
 L'article està contingut dins d'un element article. Per a les cites he usat l'element blockquote. Per a les llistes ordenades he customitzat el contador numèric amb CSS per a adapatar-lo a l'estil proposat pel dissenyador.
+
+
+### Contacte
+
+S'ha usat un formulari de Bootstrap per a integrar Netlify forms i poder habilitar així l'enviament real de missatges de contacte. 
