@@ -21,14 +21,17 @@
 
 .article__content {
   margin: auto;
-  max-width: 600px;
+  max-width: 620px;
+  padding: 10px;
 }
 
 .article__list {
   counter-reset: li;
+  margin: 2rem 0;
 }
 
 .article__item {
+  font-size: 0.9rem;
   list-style: none;
   position: relative;
 }

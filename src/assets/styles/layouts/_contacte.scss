@@ -1,0 +1,20 @@
+.contacte {
+  align-items: center;
+  background: $overlay-black, url('~assets/images/pagoda.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color-light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+  min-height: 300px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  margin: 2rem auto;
+  max-width: 400px;
+}
