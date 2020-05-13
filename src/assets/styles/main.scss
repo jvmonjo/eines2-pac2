@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 /**
  * Import variables
  */
 
 @import 'variables';
+
+/**
+ * Import components
+ */
+@import 'node_modules/bootstrap/scss/bootstrap';
 @import 'navbar';
 @import 'commons';
 
