@@ -5,7 +5,7 @@
   "description": "Eines 2 - PAC 2 based on Boilerplate for Advanced HTML/CSS Tools UOC students",
   "scripts": {
     "parcel:dev": "parcel src/index.html src/**/index.html src/assets/scripts/*.* -p 8123 --open",
-    "parcel:build": "parcel build src/index.html src/**/index.html src/assets/scripts/*.*  --public-url / --out-dir dist --no-source-maps --no-cache",
+    "parcel:build": "parcel build src/index.html src/**/index.html src/assets/scripts/*.*  --public-url ./ --out-dir dist --no-source-maps --no-cache",
     "clean": "rimraf dist .cache .cache-loader",
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
@@ -42,7 +42,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "stylelint-config-sass-guidelines": "^7.0.0"
   }
