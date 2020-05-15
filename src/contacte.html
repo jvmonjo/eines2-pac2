@@ -3,7 +3,7 @@
 <html lang="ca">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.scss"><!-- do not remove this line! -->
     <title>Contacte | L’orfe del Clan dels Zhao</title>
   </head>
@@ -42,16 +42,18 @@
                 <div class="form-group">
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="fa fa-user text-primary"></i></div>
+                            <div class="input-group-text"><span class="fa fa-user text-primary"></span></div>
                         </div>
+                        <label class="d-none" for="nom">Nom</label>
                         <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="fa fa-envelope text-primary"></i></div>
+                            <div class="input-group-text"><span class="fa fa-envelope text-primary"></span></div>
                         </div>
+                        <label class="d-none" for="email">Email</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Correu electrònic" required>
                     </div>
                 </div>
@@ -59,8 +61,9 @@
                 <div class="form-group">
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="fa fa-comment text-primary"></i></div>
+                            <div class="input-group-text"><span class="fa fa-comment text-primary"></span></div>
                         </div>
+                        <label class="d-none" for="missatge">Missatge</label>
                         <textarea class="form-control" id="missatge" name="missatge" placeholder="Missatge" required></textarea>
                     </div>
                 </div>

@@ -16,6 +16,12 @@ body {
   font-family: $font-family-serif;
 }
 
+.title,
+.card-title {
+  font-weight: 700;
+}
+
+
 a {
   text-decoration: underline;
   text-decoration-color: transparent;

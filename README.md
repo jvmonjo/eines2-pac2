@@ -59,7 +59,7 @@ Com a _workaround_ he hagut de canviar l'estructura del projecte de 'pagina/inde
 
 La web s'ha validat en els següents estàndards:
 
-- CSS3: https://jigsaw.w3.org/css-validator/
+- CSS3: https://jigsaw.w3.org/css-validator/ (algunes regles de bootstrap no validen)
 - HTML5: https://validator.w3.org/
 - Accessibility Review (Guidelines: WCAG 2.0 (Level AA)): https://achecker.ca/checker/index.php
 
