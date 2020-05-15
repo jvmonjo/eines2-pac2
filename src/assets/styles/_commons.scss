@@ -1,4 +1,4 @@
-body {
+.x-hidden {
   overflow-x: hidden;
 }
 
@@ -19,19 +19,6 @@ body {
 .title,
 .card-title {
   font-weight: 700;
-}
-
-
-a {
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-transform: uppercase;
-  transition: 0.5s;
-
-  :hover {
-    color: $main-color-light;
-    text-decoration-color: $main-color-light;
-  }
 }
 
 .footer__navbar {

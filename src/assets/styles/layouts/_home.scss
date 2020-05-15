@@ -1,4 +1,4 @@
-.home__body {
+.home {
   background: url('../images/home.jpg');
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -22,8 +22,8 @@
   padding: 2rem;
 }
 
-.home__body .footer,
-.home__body .footer__link {
+.home .footer,
+.home .footer__link {
   color: $color-light;
 }
 
@@ -47,7 +47,7 @@
 // GRID magic ;)
 
 @supports (display: grid) {
-  .home__body {
+  .home {
     display: grid;
     grid-template-rows: fit-content(80px) auto fit-content(80px);
   }
