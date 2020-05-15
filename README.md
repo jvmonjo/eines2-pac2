@@ -10,7 +10,7 @@ S'ha instal·lat stylelint i s'han importat els estàndards per a Sass.
 
 S'han usat els següents aspectes de SASS:
 
-- Variables i themificació de bootstrap:
+- Variables i _themificació_ de bootstrap:
 ```scss
 $main-color: #bd011f;
 $theme-colors: (
@@ -80,11 +80,12 @@ Per a la portada s'ha fet ús de CSS Grid amb @supports oferint una versió flex
 
 ### Repartiment
 
-Per a la pàgina del repartiment he creat un layout de graella usant flex. Per a mantenir 3 ítems per fila a pantalles suficientment grans he fet que els ítems tinguen una amblada de 28vw i un marge entre ítems de 0.5vw, a més a més d'un comportament _wrap_ per a quan no capiguen més ítems a la fila. En pantalles mitjanes s'ha optat per una amplada per ítem de 40vw per facilitar la cabuda de 2 ítems per filera. En pantalles més petites s'ha optat per una amplada de 95vw per a facilitar un layout vertical d'una sola columna. El media query s'ha fet usant els mixins disponibles a bootstrap en pro d'una integració entre els breakpoints de bootstrap i els estils personalitzats.
+Per a la pàgina del repartiment he creat un layout de graella usant flex. Per a mantenir 3 ítems per fila a pantalles suficientment grans he fet que els ítems tinguin una amblada de 28vw i un marge entre ítems de 0.5vw, a més a més d'un comportament _wrap_ per a quan no càpiguen més ítems a la fila. En pantalles mitjanes s'ha optat per una amplada per ítem de 40vw per facilitar la cabuda de 2 ítems per filera. En pantalles més petites s'ha optat per una amplada de 95vw per a facilitar un layout vertical d'una sola columna. El media query s'ha fet usant els mixins disponibles a bootstrap en pro d'una integració entre els breakpoints de bootstrap i els estils personalitzats.
 
 ### Article sobre l'obra
 
-L'article està contingut dins d'un element _article_. Per a les cites he usat l'element _blockquote_. Per a les llistes ordenades he customitzat el contador numèric amb CSS per a adapatar-lo a l'estil proposat pel wireframe:
+L'article està contingut dins d'un element _article_. Per a les cites he usat l'element _blockquote_. Per a les llistes ordenades he customitzat el comptador numèric amb CSS per a adaptar-lo a l'estil proposat pel _wireframe_:
+
 ```scss
 .article__item {
   font-size: 0.9rem;
@@ -119,9 +120,10 @@ S'ha usat un formulari de Bootstrap per a integrar Netlify forms i poder habilit
 El problema estarà arreglat en la versió 4.4.2 de Bootstrap que al moment de fer aquest exercici no està disponible a la branca estable.
 
 - Al usar el patró de nomenclatura BEM, el stylelint em retorna l'error:
-´´´
+
+```
 Selector should be written in lowercase with hyphens (selector-class-pattern)stylelint(selector-class-pattern)
-´´´
+```
 
 Seguint la recomanació trobada a aquest issue obert a github https://github.com/simonsmith/stylelint-selector-bem-pattern/issues/36, ho he solucionat afegint aquesta regla al stylelint.json:
 
